@@ -22,12 +22,12 @@ end
 puts recursive_fibonacci(35)
 
 def iterative_fibonacci(num)
-  a = 0
-  b = 1
+  t = 0
+  w = 1
   num.times do
-    fib = a
-    a = b
-    b = fib + b
+    fibo = t
+    t = w
+    w = fibo + w
   end
   return a
 end
